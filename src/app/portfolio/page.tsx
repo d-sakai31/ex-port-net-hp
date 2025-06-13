@@ -1,6 +1,16 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Portfolio from '@/components/Portfolio'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'ポートフォリオ',
+  description: 'Ex-Port.netの制作実績をご紹介します。AI開発、WEB開発、ホームページ制作、写真撮影、映像制作の事例をご覧ください。',
+  openGraph: {
+    title: 'ポートフォリオ | Ex-Port.net',
+    description: 'Ex-Port.netの制作実績をご紹介します。AI開発、WEB開発、ホームページ制作、写真撮影、映像制作の事例をご覧ください。',
+  },
+}
 
 export default function PortfolioPage() {
   return (

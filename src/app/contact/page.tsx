@@ -1,6 +1,16 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Contact from '@/components/Contact'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'お問い合わせ',
+  description: 'Ex-Port.netへのお問い合わせはこちらから。AI開発、WEB開発、ホームページ制作、写真撮影、映像制作に関するご相談を承ります。',
+  openGraph: {
+    title: 'お問い合わせ | Ex-Port.net',
+    description: 'Ex-Port.netへのお問い合わせはこちらから。AI開発、WEB開発、ホームページ制作、写真撮影、映像制作に関するご相談を承ります。',
+  },
+}
 
 export default function ContactPage() {
   return (
