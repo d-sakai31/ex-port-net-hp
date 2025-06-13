@@ -4,7 +4,7 @@ import nodemailer from 'nodemailer'
 // メール送信機能
 async function sendEmail(contactData: any) {
   // SMTPトランスポーターの設定
-  const transporter = nodemailer.createTransporter({
+  const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
     port: parseInt(process.env.SMTP_PORT || '587'),
     secure: false, // 587ポートの場合はfalse

@@ -257,7 +257,7 @@ export default function Hero() {
                     transition={{ delay: 2.6 }}
                     className="pt-4 text-secondary-600 font-semibold"
                   >
-                    // <span className="text-neutral-600">Ready to transform your business?</span>
+                    {/* <span className="text-neutral-600">Ready to transform your business?</span> */}
                   </motion.div>
                 </div>
               </div>
